@@ -1,0 +1,83 @@
+.list-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+.list-wrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.list-search{
+    flex: 1;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+.list-search-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.list-search-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.list-search-item>label{
+    font-size: 14px;
+}
+.list-search-item>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+.list-search-item>span{
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.list-search-option{
+    padding: 10px;
+}
+.option-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+}
+.option-item-input{
+    width: 100px;
+}
+.option-item-input::placeholder{
+    text-align: center;
+}
+.list-search button{
+    padding: 10px;
+    background-color: #0071c2;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+.list-result{
+    flex: 3;
+
+}

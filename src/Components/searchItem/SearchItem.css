@@ -1,0 +1,99 @@
+.search-item{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.search-item-img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.search-item-des{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 15px;
+    flex: 2;
+}
+.si-title{
+    font-size: 20px;
+    color: #0071c2;
+}
+.si-distance{
+    font-size: 12px;
+
+}
+.si-taxi-op{
+    font-size: 12px;
+    background-color: #008009;
+    color: white;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.si-subtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.si-features{
+    font-size: 12px;
+}
+.si-cancel-op{
+    font-size: 12px;
+    font-weight: bold;
+    color: #008009;
+}
+.si-cancel-op-subtitle{
+    font-size: 12px;
+    color: #008009;
+
+}
+.search-item-details{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.si-rating{
+    display: flex;
+    justify-content: space-between;
+
+}
+.si-rating>span{
+    font-weight: 500;
+}
+.si-rating>button{
+    background-color: #003580;
+    color: white;
+    padding: 4px;
+    font-weight: bold;
+    border: none;
+}
+.si-detail-texts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.si-price{
+    font-size: 24px;
+}
+.si-tax-op{
+    font-size: 12px;
+    color: gray;
+}
+.si-check-button{
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    padding: 10px 5px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    
+}
