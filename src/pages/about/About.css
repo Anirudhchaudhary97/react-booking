@@ -1,9 +1,6 @@
 /* CSS for the About Us component */
 
 .about-us {
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column; */
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
